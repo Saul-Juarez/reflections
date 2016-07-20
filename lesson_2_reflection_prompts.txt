@@ -15,10 +15,20 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	When you want to work in a change but do not want it to be in the official master project
+	Branches allow you to work easily with different commits
+
 How do the diagrams help you visualize the branch structure?
+
+	They help you see more clearly the parent of each commit and how that makes a branch
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result is the joint of the two branches in a single commit
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Pro - Makes merging faster
+	Con - Still will need to check manually the conflicts
